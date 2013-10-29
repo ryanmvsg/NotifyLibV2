@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="NotifyLibV2.PrgTrackerCtrl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             x:Name="xPrgTrackerCtrl"
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="550">
+    <Border BorderThickness="1" CornerRadius="3">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="9*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="26*"/>
+                <ColumnDefinition Width="487*"/>
+                <ColumnDefinition Width="35*"/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="xMainChk" Content="" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="3,10,3,0" Grid.RowSpan="2" />
+            <ProgressBar x:Name="xMainPrgVal" Grid.Column="1" Grid.Row="0" Value="{Binding Path=ProgressVal,ElementName=xPrgTrackerCtrl}" />
+            <TextBlock x:Name="xMainDescTxt" Text="{Binding Path=Description,ElementName=xPrgTrackerCtrl}" Grid.Column="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Margin="4,0,4,4" Grid.Row="1" />
+            <Button x:Name="xMainStopBtn" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="5,10,5,0" Grid.Column="2" Width="25" Height="25" Grid.RowSpan="2">
+                <Button.Content>
+                    <TextBlock Text="X" />
+                </Button.Content>
+            </Button>
+        </Grid>
+    </Border>
+</UserControl>

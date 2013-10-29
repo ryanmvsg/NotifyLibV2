@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="NotifyLibV2.TrckCtnrCtrl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             x:Name="xTrckCtnrCtrl"
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="550">
+    <Border BorderThickness="1" CornerRadius="3">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="26*"/>
+                <ColumnDefinition Width="487*"/>
+                <ColumnDefinition Width="35*"/>
+            </Grid.ColumnDefinitions>
+            <CheckBox x:Name="xMainChk" Content="" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="3,10,3,0" />
+            <TreeView x:Name="xMainTV" Grid.Column="1" Background="{x:Null}" BorderThickness="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                <TreeView.Items>
+                    <TreeViewItem x:Name="xMainItm" HorizontalAlignment="Stretch">
+                        <Grid x:Name="xMainGrid" HorizontalAlignment="Stretch" MinWidth="{Binding Path=Width,ElementName=xMainItm}">
+                        </Grid>
+                    </TreeViewItem>
+                </TreeView.Items>
+            </TreeView>
+            <Button x:Name="xMainStopBtn" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="5,10,5,0" Grid.Column="2" Width="25" Height="25">
+                <Button.Content>
+                    <TextBlock Text="X" />
+                </Button.Content>
+            </Button>
+        </Grid>
+    </Border>
+</UserControl>

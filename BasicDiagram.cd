@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NotifyLibV2.BasicTrackerCtrl" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAABAAIAAAgAAAAGAAACAAAAAAACAAAIAIAECAAAAA=</HashCode>
+      <FileName>BasicTrackerCtrl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NotifyLibV2.PrgTrackerCtrl" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACBAAIACAgQAAAGAAACAAAAAAACAAAIAICECAAAAA=</HashCode>
+      <FileName>PrgTrackerCtrl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NotifyLibV2.TrackersCtrlHelper" BaseTypeListCollapsed="true">
+    <Position X="7" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAGAAAAAAAAAAAAABAAAAgAQgAAAAAIA=</HashCode>
+      <FileName>TrackersHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NotifyLibV2.TrckCtnrCtrl" BaseTypeListCollapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AiAAAASAAABAAAAACAAAkAAAAAAAAAEAIAAAECAAAAA=</HashCode>
+      <FileName>TrckCtnrCtrl.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="NotifyLibV2.IGrpPrgTracker">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAECAAIAAABAAAAAAAAAEAAA=</HashCode>
+      <FileName>IGrpPrgTracker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotifyLibV2.IPrgPrntTracker">
+    <Position X="5.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAQAAAAAAAAAAAAAAAAAAQBAACAAAAABAAAAA=</HashCode>
+      <FileName>IPrgPrntTracker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotifyLibV2.IProgressTracker">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>IProgressTracker.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotifyLibV2.ITrackable">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAAAAAAAABAIAAAAAAAAEAA=</HashCode>
+      <FileName>ITrackable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="NotifyLibV2.ITrackableCtrl">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITrackableCtrl.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
